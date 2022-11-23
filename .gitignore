@@ -64,5 +64,7 @@ buck-out/
 /vendor/bundle/
 /ios/Podfile.lock
 
+.env
+
 yarn.lock
 package-lock.json

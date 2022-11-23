@@ -7,7 +7,7 @@ import BottomTabProfileStack from './TabStacks/BottomTabProfileStack';
 import {COLORS} from '../utils/Colors';
 
 const Tab = createBottomTabNavigator();
-export default function MainStack() {
+export default function TabViewNavigator() {
   return (
     <Tab.Navigator
       screenOptions={{

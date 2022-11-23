@@ -2,7 +2,7 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import WelcomeScreen from '../screens/NonAuth/WelcomeScreen';
-import MainStack from './MainStack';
+import DrawerNavigator from './DrawerNavigator';
 
 const Stack = createStackNavigator();
 
@@ -15,8 +15,8 @@ export default function NonAuthStack() {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="MainStack"
-        component={MainStack}
+        name="Dashboard"
+        component={DrawerNavigator}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
