@@ -15,6 +15,12 @@ export default function HomeMainScreen(props) {
         alignItems={'center'}
         marginTop={'24px'}>
         <Text>Home Main Screen</Text>
+        <Button
+          onPress={() => {
+            props.navigation.toggleDrawer();
+          }}>
+          <Text>open Drawer Navigator</Text>
+        </Button>
       </VStack>
     </Box>
   );

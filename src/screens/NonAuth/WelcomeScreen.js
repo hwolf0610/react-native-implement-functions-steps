@@ -17,7 +17,7 @@ export default function WelcomeScreen(props) {
         <Text>Welcome Screen</Text>
         <Button
           onPress={() => {
-            props.navigation.navigate('MainStack');
+            props.navigation.navigate('Dashboard');
           }}>
           <Text>Go Home Page</Text>
         </Button>
